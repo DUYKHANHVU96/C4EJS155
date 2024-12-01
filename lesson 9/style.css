@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+}
+
+.top {
+
+    padding: 20px 40px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top ul {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+
+}
+
+.top ul li a {
+    font-size: 20px;
+    color: #000000;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.item2 h2 {
+    color: #7200b8;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.House {
+
+    width: 220px;
+    height: 580px;
+    background-color: #000000;
+    margin-left: 40px;
+
+}
+
+.House ul {
+    list-style: none;
+}
+
+.bot ul li a {
+
+    color: #fff;
+}
